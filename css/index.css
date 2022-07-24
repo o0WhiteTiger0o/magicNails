@@ -158,6 +158,9 @@ footer{
     color: aqua;
 }
 
+b{
+    text-decoration: underline;
+}
 /* Extra small devices (phones, 600px and down) */
   @media (max-width: 1000px) {
     body {
@@ -176,5 +179,8 @@ footer{
         
     }
     header{font-size: auto;}
+    #logo{
+        width: 30%;
+    }
   }
 
