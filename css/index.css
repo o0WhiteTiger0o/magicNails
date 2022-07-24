@@ -61,6 +61,8 @@ address{
     padding:1%;
     margin-right: 0;
     color:yellow;
+    text-align: center;
+    display: block;
 }
 
 section{
@@ -148,3 +150,31 @@ footer{
 #hinh{
     background-color: transparent;
 }
+
+#phone_call a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    color: aqua;
+}
+
+/* Extra small devices (phones, 600px and down) */
+  @media (max-width: 1000px) {
+    body {
+        width:auto;
+        text-align: center;
+    
+    }
+    nav{
+        display: block;
+    }
+    nav a{
+        display: inline-block;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 10px;
+        
+    }
+    header{font-size: auto;}
+  }
+
