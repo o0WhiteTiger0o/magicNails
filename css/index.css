@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url("../hinh\ nen/hinhnen1.webp");
+    background-image: url("../hinh_nen/hinhnen1.webp");
     background-repeat: none;
     background-attachment: fixed;
     background-color: whitesmoke;
@@ -161,6 +161,19 @@ footer{
 b{
     text-decoration: underline;
 }
+
+#service img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#service {
+    width: auto;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
   @media (max-width: 1000px) {
     body {
