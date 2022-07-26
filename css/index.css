@@ -13,6 +13,12 @@ body {
     height: auto;
 
 }
+
+/*#fixed{
+    position: fixed;
+    width: 100%;
+}*/
+
 header, address {
     color: yellow;
     display: flex;
@@ -233,3 +239,4 @@ b{
     #service{flex-direction: column;
   }
 
+  }
